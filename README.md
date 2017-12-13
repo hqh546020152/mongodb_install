@@ -2,12 +2,11 @@
 
 该脚本用于安装MongDB3.6版本
 
-
+使用方法：
 cd ../../../mongodb_install
 sh install.sh
 
-
-
+配置文件存放位置：
 #rpm -ql  mongodb-org-server-3.6.0-1.el7.x86_64
 #/etc/mongod.conf
 #/lib/systemd/system/mongod.service
@@ -22,4 +21,3 @@ sh install.sh
 #/var/log/mongodb
 #/var/log/mongodb/mongod.log
 #/var/run/mongodb
-
